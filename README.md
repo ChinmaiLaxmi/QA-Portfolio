@@ -45,9 +45,6 @@ QA-Portfolio/
 - Response Body
 - Headers
 
-## 🛠️ Tools & Technologies
-- **Manual Testing:** Test Plans, Test Cases, Bug Reports
-
 **##👩‍💻 About Me**
 I am an aspiring **QA Engineer** with hands-on experience in:
 - Manual Testing (Test planning, Test case design, Bug reporting)
