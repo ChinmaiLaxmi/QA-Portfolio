@@ -1,0 +1,7 @@
+Bug Reports
+
+| Bug ID | Title | Steps to Reproduce | Expected Result | Actual Result | Severity | Status |
+|--------|-------|--------------------|-----------------|---------------|----------|--------|
+| BR-101 | Login fails with valid user | Enter valid email + password → Click Login | User should login | Error message shown | High | Open |
+| BR-102 | Registration accepts weak password | Enter '12345' as password | Should reject weak password | Account created | Medium | Open |
+| BR-103 | UI Misalignment in Cart Page | Add 3 products → Go to Cart | Proper alignment | Overlapping text | Low | Open |

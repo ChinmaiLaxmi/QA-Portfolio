@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "Sample API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login API",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"username\":\"testuser\", \"password\":\"password123\"}"
+        },
+        "url": { "raw": "https://reqres.in/api/login", "host": ["reqres","in"], "path": ["api","login"] }
+      }
+    },
+    {
+      "name": "Get Users",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "https://reqres.in/api/users?page=2", "host": ["reqres","in"], "path": ["api","users"], "query":[{"key":"page","value":"2"}] }
+      }
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"Chinmai QA\", \"job\":\"Tester\"}"
+        },
+        "url": { "raw": "https://reqres.in/api/users", "host": ["reqres","in"], "path": ["api","users"] }
+      }
+    }
+  ]
+}

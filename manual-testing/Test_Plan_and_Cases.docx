@@ -1,0 +1,14 @@
+Test Plan & Test Cases
+
+Project: E-Commerce Web Application
+Scope: Testing login, registration, and payment workflows.
+
+Objectives:
+- Verify core user journeys (Login, Register, Checkout).
+- Ensure defect-free release with high priority coverage.
+
+Test Cases:
+1. Login with valid credentials → User should be redirected to dashboard.
+2. Login with invalid password → Error message should be displayed.
+3. Register with new email → Account should be created successfully.
+4. Checkout with valid credit card → Payment should succeed.
