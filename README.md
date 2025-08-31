@@ -40,8 +40,19 @@ QA-Portfolio/
 1. Open **Postman**.
 2. Import the collection (`api-testing/Sample_API_Tests.postman_collection.json`).
 3. Run using **Collection Runner**.
+4. It covers **GET, POST, PUT, DELETE** requests with validations for:
+- Response Status
+- Response Body
+- Headers
 
 ## 🛠️ Tools & Technologies
 - **Manual Testing:** Test Plans, Test Cases, Bug Reports
+
+**##👩‍💻 About Me**
+I am an aspiring **QA Engineer** with hands-on experience in:
+- Manual Testing (Test planning, Test case design, Bug reporting)
+- Automation Testing (Selenium, TestNG, Maven, Java)
+- API Testing (Postman collections & assertions)
+This portfolio highlights my ability to create structured **QA documentation, automation scripts, and API tests—skills** I can apply in real-world projects.
 - **Automation:** Java, Selenium, TestNG, Maven
 - **API Testing:** Postman, JSON
